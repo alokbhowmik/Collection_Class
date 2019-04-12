@@ -8,8 +8,13 @@ public class Demo1 {
 
     
     public static void main(String[] args) {
-        
+        /*In ArrayList we add Object one by one like array we do. 
+         Here list is an Interface as we know that we cant create 
+         an object of Interface only we can create the object of
+         that class which implements the Interface here List is 
+         implemented by ArrayList*/
         List <Integer>l = new ArrayList();
+     
         List l1 = new ArrayList();
 
         l.add(5);
